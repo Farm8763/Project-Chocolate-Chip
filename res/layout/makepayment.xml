@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background">
+
+	<include android:id="@+id/banner" layout="@layout/banner" />
+
+    <ScrollView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"> 
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+			<LinearLayout
+			    android:id="@+id/inputFields"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" 
+			    android:background="@drawable/border"
+			    android:layout_margin="5dp" 
+			    android:padding="5dp" 			    
+			    android:orientation="vertical">
+			    
+			    <RelativeLayout android:id="@+id/amountArea"
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="wrap_content">
+		    
+		            <TextView 
+		    	       android:id="@+id/amountLabel"
+		    	       android:text="@string/amount_label"
+		    	       android:layout_height="wrap_content"
+		    	       android:layout_width="wrap_content"
+		    	       android:minWidth="80sp"
+		    	       android:textStyle="bold"
+		    	       android:textColor="@color/text"
+		    	       android:layout_alignParentLeft="true"
+		    	       android:layout_centerVertical="true"></TextView>
+		    
+		    		<EditText 
+		    		    android:id="@+id/amountEditText"  
+		    		    android:enabled="false"
+		    		    android:layout_height="wrap_content" 
+		    			android:layout_width="fill_parent"
+		    			android:layout_toRightOf="@+id/amountLabel"
+		    			android:textSize="14sp"
+		                android:maxLength="8"
+		    			android:inputType="numberDecimal">		
+		    			<requestFocus></requestFocus>
+		    		</EditText>
+		    	</RelativeLayout>
+		    	
+		        <RelativeLayout android:id="@+id/payeeIdArea"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content">
+		    
+		            <TextView 
+		               android:id="@+id/payeeIdLabel"
+		               android:text="@string/payee_id_label"
+		               android:layout_height="wrap_content"
+		               android:layout_width="wrap_content"
+		               android:minWidth="80sp"
+		               android:textStyle="bold"
+		               android:textColor="@color/text"
+		               android:layout_alignParentLeft="true"
+		               android:layout_centerVertical="true"></TextView>
+		    
+		            <EditText 
+		                android:id="@+id/payeeIdEditText"  
+		    		    android:enabled="false"
+		                android:layout_height="wrap_content" 
+		                android:layout_width="fill_parent"
+		                android:layout_toRightOf="@+id/payeeIdLabel"
+		                android:textSize="14sp"
+		                android:maxLength="16"
+		                android:inputType="number">      
+		            </EditText>
+		        </RelativeLayout>
+		    
+		        <RelativeLayout android:id="@+id/annotationArea"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content">
+		    
+		            <TextView 
+		               android:id="@+id/annotationLabel"
+		               android:text="@string/annotation_label"
+		               android:layout_height="wrap_content"
+		               android:layout_width="wrap_content"
+		               android:minWidth="80sp"
+		               android:textStyle="bold"
+		               android:textColor="@color/text"
+		               android:layout_alignParentLeft="true" 
+		               android:layout_centerVertical="true"></TextView>
+		    
+		            <EditText 
+		                android:id="@+id/annotationEditText"  
+		    		    android:enabled="false"
+		                android:text="@string/annotation_text"
+		                android:layout_height="wrap_content" 
+		                android:layout_width="fill_parent"
+		                android:layout_toRightOf="@+id/annotationLabel"
+		                android:textSize="14sp">      
+		            </EditText>
+		        </RelativeLayout>
+			</LinearLayout>
+		
+		    <Button android:id="@+id/makePaymentButton"
+		        android:text="@string/make_payment_button"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:layout_marginRight="5dp"
+		        android:minWidth="130dp"></Button>
+		        
+        </LinearLayout> 
+        
+    </ScrollView>
+
+</LinearLayout>

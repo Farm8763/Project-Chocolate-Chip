@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background">
+
+    <include android:id="@+id/banner" layout="@layout/banner" />
+    
+    <ScrollView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"> 
+    
+		<LinearLayout
+		    android:id="@+id/mainContent"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_gravity="center_horizontal"
+		    android:orientation="vertical">
+		    
+		    <Button android:id="@+id/makePaymentButton" 
+		        android:text="@string/make_payment_button"
+	    		android:layout_height="wrap_content" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_margin="10dp"
+	    		android:minWidth="250dp"></Button>
+	    		
+	        <Button android:id="@+id/acceptPaymentButton" 
+	            android:text="@string/accept_payment_button"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_margin="10dp"
+	            android:minWidth="250dp"></Button>
+	        
+	        <Button android:id="@+id/creditsButton" 
+	            android:text="@string/credits_button"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_margin="10dp"
+	            android:minWidth="250dp"></Button>
+	        
+	        <Button android:id="@+id/debitsButton" 
+	            android:text="@string/debits_button"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_margin="10dp"
+	            android:minWidth="250dp"></Button>
+	        
+	        <Button android:id="@+id/lastDebitButton" 
+	            android:text="@string/last_debit_button"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_margin="10dp"
+	            android:minWidth="250dp"></Button>
+	    	
+	    	<Button android:id="@+id/chipInfoButton" 
+	    	   android:text="@string/chip_info_button"
+	    		android:layout_height="wrap_content" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_margin="10dp"
+	    		android:minWidth="250dp"></Button>
+		</LinearLayout>
+    
+    </ScrollView>
+		
+</LinearLayout>

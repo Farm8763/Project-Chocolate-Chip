@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/banner"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp" 
+    android:background="@drawable/bannerbackground">
+    
+    <TextView android:id="@+id/titleTextView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textColor="@color/text" 
+        android:layout_gravity="center_horizontal"></TextView>
+    
+    <LinearLayout android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+                
+        <TextView android:id="@+id/accountLabel"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/account_banner" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textColor="@color/text"></TextView>
+
+        <TextView android:id="@+id/accountTextView"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_toRightOf="@+id/accountLabel"
+            android:textColor="@color/text"
+            android:paddingLeft="2dp"></TextView>
+        
+        <TextView android:id="@+id/balanceLabel"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/balance_banner" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textColor="@color/text"
+            android:paddingLeft="10dp"></TextView>
+
+        <TextView android:id="@+id/balanceTextView"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_toRightOf="@+id/balanceLabel"
+            android:textColor="@color/text"
+            android:paddingLeft="2dp"></TextView>
+    
+    </LinearLayout>
+    
+</LinearLayout>

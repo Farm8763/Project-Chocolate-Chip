@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MintChip Sample</string>
+    <string name="make_payment_button">Make Payment</string>
+    <string name="accept_payment_button">Accept Payment</string>
+    <string name="accept_button">Accept</string>
+    <string name="browse_button">Browse</string>
+    <string name="credits_button">Credit Transactions</string>
+    <string name="debits_button">Debit Transactions</string>
+    <string name="last_debit_button">Last Debit</string>
+    <string name="chip_info_button">Chip Information</string>
+    <string name="select_file">Select File</string>
+    <string name="accept_payment_title">Accept Payment</string>
+    <string name="please_load_value_message">Please load the value message file first.</string>
+    <string name="successfully_accepted_value_message">Successfully accepted %s from the value message.</string>
+    <string name="make_payment_title">Make Payment</string>
+    <string name="save_payment_to_file">Save Payment to File</string>
+    <string name="file_name">File Name:</string>
+    <string name="value_message_saved">Value Message saved to&#160;</string>
+    <string name="value_message_posted">Value Message posted to %1$s , but no redirect URL was returned.</string>
+    <string name="specify_amount">Please specify the amount to pay.</string>
+    <string name="specify_payee_id">Please specify correct Payee ID.</string>
+    <string name="ok_button">OK</string>
+    <string name="access_denied">Access denied!</string>
+    <string name="location_label">Location:&#160;</string>
+    <string name="last_debit_title">Last Debit Transaction</string>
+    <string name="no_debit_transaction">No debit transaction has been performed yet.</string>
+    <string name="mintchip_info">MintChip Info</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="credit_transactions_title">Credit Transactions</string>
+    <string name="debit_transactions_title">Debit Transactions</string>
+    <string name="received_from">received from&#160;</string>
+    <string name="paid_to">paid to&#160;</string>
+    <string name="log_entry_format">%1$d. %2$s\t%3$s\non %4$s</string>
+    <string name="account_banner">Account:</string>
+    <string name="balance_banner">Balance:</string>
+    <string name="amount_label">Amount:</string>
+    <string name="payee_id_label">Payee ID:</string>
+    <string name="annotation_label">Annotation:</string>
+    <string name="annotation_text">Paid from an Android device</string>
+</resources>
