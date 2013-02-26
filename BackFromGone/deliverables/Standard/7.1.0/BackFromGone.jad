@@ -1,0 +1,19 @@
+MIDlet-Name: BackFromGone
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: BlackBerry Developer
+MIDlet-Jar-URL: BackFromGone.jar
+MIDlet-Jar-Size: 203086
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: ,img/icon.png,
+RIM-MIDlet-Flags-1: 0
+Manifest-Version: 1.0
+RIM-COD-URL: BackFromGone.cod
+RIM-COD-Size: 34040
+RIM-COD-Creation-Time: 1343792041
+RIM-COD-Module-Name: BackFromGone
+RIM-COD-Module-Dependencies: net_rim_cldc,MintChipCommon,MintChipBlackBerryApi,net_rim_xml,net_rim_xml_org,net_rim_bbapi_mailv2
+RIM-COD-SHA1: 31 f0 67 a8 dd ca 9f 2a 9e 4c 7c 7a 22 b4 74 14 43 a5 f4 b0
+RIM-COD-URL-1: BackFromGone-1.cod
+RIM-COD-Size-1: 53408
+RIM-COD-SHA1-1: 26 d0 3d e0 e2 dc d1 1b 46 c2 7a 02 f8 c3 68 39 9b 59 51 d4
